@@ -1,0 +1,21 @@
+﻿using Azure;
+using Azure.Data.Tables;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace QueueFunctionICE3
+{
+    class PersonEntity : ITableEntity
+    {
+        public string? Name { get; set; }
+        public string? Email { get; set; }
+
+        public string PartitionKey { get; set; } = "People";
+        public string RowKey { get; set; } = string.Empty;
+        public DateTimeOffset? Timestamp { get; set; }
+        public ETag ETag { get; set; }
+    }
+}

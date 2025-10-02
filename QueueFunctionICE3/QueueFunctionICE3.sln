@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35825.156
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QueueFunctionICE3", "QueueFunctionICE3.csproj", "{F96932B2-2EDE-4CEC-9480-1B68C60DEA5B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestQueueICE3", "..\TestQueueICE3\TestQueueICE3.csproj", "{5DB236C9-CAA4-6121-9775-C923D2849897}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F96932B2-2EDE-4CEC-9480-1B68C60DEA5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F96932B2-2EDE-4CEC-9480-1B68C60DEA5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F96932B2-2EDE-4CEC-9480-1B68C60DEA5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F96932B2-2EDE-4CEC-9480-1B68C60DEA5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DB236C9-CAA4-6121-9775-C923D2849897}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DB236C9-CAA4-6121-9775-C923D2849897}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DB236C9-CAA4-6121-9775-C923D2849897}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DB236C9-CAA4-6121-9775-C923D2849897}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DADE9E12-1AD2-4AE3-8791-388A154A7791}
+	EndGlobalSection
+EndGlobal
